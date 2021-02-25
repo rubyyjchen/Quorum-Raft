@@ -1,0 +1,405 @@
+appending output to nohup.out
+INFO [02-25|16:06:32.746] Running with private transaction manager disabled - quorum private transactions will not be supported 
+DEBUG[02-25|16:06:32.750] Sanitizing Go's GC trigger               percent=100
+INFO [02-25|16:06:32.756] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [02-25|16:06:32.756] The flag --rpc is deprecated and will be removed in the future, please use --http 
+WARN [02-25|16:06:32.756] The flag --rpcaddr is deprecated and will be removed in the future, please use --http.addr 
+WARN [02-25|16:06:32.756] The flag --rpcport is deprecated and will be removed in the future, please use --http.port 
+WARN [02-25|16:06:32.756] The flag --rpcapi is deprecated and will be removed in the future, please use --http.api 
+TRACE[02-25|16:06:32.757] Started watching keystore folder         path=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/keystore
+DEBUG[02-25|16:06:32.759] FS scan times                            list=2.66091ms set="2.024µs" diff="4.01µs"
+INFO [02-25|16:06:32.797] Set global gas cap                       cap=25000000
+WARN [02-25|16:06:32.798] permission-config.json file is missing. Smart-contract-based permission service will be disabled error="stat new-node-2/permission-config.json: no such file or directory"
+INFO [02-25|16:06:32.798] raft service registered 
+WARN [02-25|16:06:32.799] Using deprecated resource file /Users/rubychen/Desktop/quorum/fromscratch/new-node-2/nodekey, please move this file to the 'geth' subdirectory of datadir. 
+WARN [02-25|16:06:32.806] Found deprecated node list file /Users/rubychen/Desktop/quorum/fromscratch/new-node-2/static-nodes.json, please use the TOML config file instead. 
+INFO [02-25|16:06:32.810] Starting peer-to-peer node               instance=Geth/v1.9.16-stable-6e8585c2(quorum-v21.1.0)/darwin-amd64/go1.16
+INFO [02-25|16:06:32.813] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [02-25|16:06:32.815] Allocated cache and file handles         database=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/geth/chaindata cache=768.00MiB handles=5120
+DEBUG[02-25|16:06:33.091] Chain freezer table opened               database=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/geth/chaindata/ancient table=diffs items=0 size=0.00B
+DEBUG[02-25|16:06:33.116] Chain freezer table opened               database=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/geth/chaindata/ancient table=headers items=0 size=0.00B
+DEBUG[02-25|16:06:33.138] Chain freezer table opened               database=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/geth/chaindata/ancient table=hashes  items=0 size=0.00B
+DEBUG[02-25|16:06:33.175] Chain freezer table opened               database=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/geth/chaindata/ancient table=bodies  items=0 size=0.00B
+DEBUG[02-25|16:06:33.197] Chain freezer table opened               database=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/geth/chaindata/ancient table=receipts items=0 size=0.00B
+INFO [02-25|16:06:33.197] Opened ancient database                  database=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/geth/chaindata/ancient
+DEBUG[02-25|16:06:33.198] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:06:33.199] Account Extra Data root                  hash="000000…000000"
+INFO [02-25|16:06:33.200] Initialised chain configuration          config="{ChainID: 10 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 IsQuorum: true Constantinople: 0 TransactionSizeLimit: 64 MaxCodeSize: 0 Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil> YOLO v1: <nil> PrivacyEnhancements: <nil> Engine: unknown}"
+WARN [02-25|16:06:33.204] Ethash used in full fake mode 
+INFO [02-25|16:06:33.212] Initialising Ethereum protocol           name=eth versions="[65 64 63]" network=31337 dbversion=<nil>
+INFO [02-25|16:06:33.212] Initialising Quorum consensus protocol   name=eth versions="[65 64 63]" network=31337 dbversion=<nil>
+WARN [02-25|16:06:33.212] Upgrade blockchain database version      from=<nil> to=7
+DEBUG[02-25|16:06:33.218] Account Extra Data root                  hash="000000…000000"
+DEBUG[02-25|16:06:33.218] Account Extra Data root                  hash="000000…000000"
+INFO [02-25|16:06:33.218] Loaded most recent local header          number=0 hash="f23750…e6fb3f" td=0 age=51y10mo3w
+INFO [02-25|16:06:33.219] Loaded most recent local full block      number=0 hash="f23750…e6fb3f" td=0 age=51y10mo3w
+INFO [02-25|16:06:33.219] Loaded most recent local fast block      number=0 hash="f23750…e6fb3f" td=0 age=51y10mo3w
+DEBUG[02-25|16:06:33.220] Account Extra Data root                  hash="000000…000000"
+DEBUG[02-25|16:06:33.221] Account Extra Data root                  hash="000000…000000"
+DEBUG[02-25|16:06:33.221] Reinjecting stale transactions           count=0
+INFO [02-25|16:06:33.222] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-25|16:06:33.253] Allocated fast sync bloom                size=512.00MiB
+DEBUG[02-25|16:06:33.264] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-25|16:06:33.266] Initialized fast sync bloom              items=1 errorrate=0.000 elapsed=3.268ms
+WARN [02-25|16:06:33.279] Using deprecated resource file new-node-2/nodekey, please move this file to the 'geth' subdirectory of datadir. 
+WARN [02-25|16:06:33.279] Found deprecated node list file new-node-2/static-nodes.json, please use the TOML config file instead. 
+TRACE[02-25|16:06:33.407] Adding static node                       id=ebb7863cca73b9c7 ip=127.0.0.1 added=true
+TRACE[02-25|16:06:33.407] Starting p2p dial                        id=ebb7863cca73b9c7 ip=127.0.0.1 flag=staticdial
+DEBUG[02-25|16:06:33.408] TCP listener up                          addr=[::]:21001
+TRACE[02-25|16:06:33.408] Adding static node                       id=0cf2688ae1d0e301 ip=127.0.0.1 added=true
+INFO [02-25|16:06:33.408] starting raft protocol handler 
+INFO [02-25|16:06:33.409] loaded the latest applied index          lastAppliedIndex=0
+INFO [02-25|16:06:33.409] replaying WAL 
+INFO [02-25|16:06:33.413] New local node record                    seq=1 id=0cf2688ae1d0e301 ip=127.0.0.1 udp=0 tcp=21001
+INFO [02-25|16:06:33.414] Started P2P networking                   self="enode://599b1eefaf784f2c15b38142ee8f18d5635960b80280842f21c5b6ed267705c4e284720c7a33d376b0198e2c856864c21734b5635a1b7ccf0ea67dda43e3ea6b@127.0.0.1:21001?discport=0"
+TRACE[02-25|16:06:33.431] Quorum permissioning                     id=ebb7863cca73b9c7 addr=127.0.0.1:21000 conn=staticdial EnableNodePermission=false DataDir=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2 Current Node ID=0cf2688ae1d0e301337f1d12aacab4bcd787fa98e2fe3194aa94059900bad18a Node Name=Geth/v1.9.16-stable-6e8585c2(quorum-v21.1.0)/darwin-amd64/go1.16 Dialed Dest="enode://416ef2ceb31d02422612cccc8ff1966ba7161b71e29161d6c79dd3ca754eff99a1244481803cc06fd7261dc935f1f0fca7831d1ec4cb3ba38fe718a874d64cca@127.0.0.1:21000?discport=0&raftport=50000" Connection ID=ebb7863cca73b9c7 Connection String=ebb7863cca73b9c70dce8d6d6a274ad3ab007b279437240795aa2ed261c3653f
+TRACE[02-25|16:06:33.431] Node Permissioning is Disabled.          id=ebb7863cca73b9c7 addr=127.0.0.1:21000 conn=staticdial
+DEBUG[02-25|16:06:33.455] Adding p2p peer                          peercount=1 id=ebb7863cca73b9c7 conn=staticdial addr=127.0.0.1:21000 name=Geth/v1.9.16-stable-...
+TRACE[02-25|16:06:33.456] Starting protocol eth/65                 id=ebb7863cca73b9c7 conn=staticdial
+DEBUG[02-25|16:06:33.458] Ethereum peer connected                  id=ebb7863cca73b9c7 conn=staticdial name=Geth/v1.9.16-stable-6e8585c2(quorum-v21.1.0)/darwin-amd64/go1.16
+TRACE[02-25|16:06:33.473] Registering sync peer                    peer=ebb7863cca73b9c7
+INFO [02-25|16:06:33.586] loading WAL                              term=0 index=0
+INFO [02-25|16:06:33.589] startRaft                                raft ID=2
+INFO [02-25|16:06:33.589] newly joining an existing cluster; waiting for connections. 
+raft2021/02/25 16:06:33.590420 INFO: newRaft storagehardState{0 0 0 []} confState{[] [] []}
+raft2021/02/25 16:06:33.590517 INFO: newRaft config.peers[] config.learners[]
+raft2021/02/25 16:06:33.590550 INFO: 2 became follower at term 0
+raft2021/02/25 16:06:33.590605 INFO: newRaft 2 learner: false [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+raft2021/02/25 16:06:33.590625 INFO: 2 became follower at term 1
+INFO [02-25|16:06:33.590] raft node started 
+DEBUG[02-25|16:06:33.675] InProc registered                        namespace=admin
+DEBUG[02-25|16:06:33.675] InProc registered                        namespace=admin
+2021-02-25 16:06:33.680222 I | rafthttp: started HTTP pipelining with peer 1
+2021-02-25 16:06:33.698657 E | rafthttp: failed to find member 1 in cluster 1000
+raft2021/02/25 16:06:33.705313 INFO: 2 [term: 1] received a MsgHeartbeat message with higher term from 1 [term: 2]
+2021-02-25 16:06:33.706646 E | rafthttp: failed to find member 1 in cluster 1000
+raft2021/02/25 16:06:33.706660 INFO: 2 became follower at term 2
+DEBUG[02-25|16:06:33.705] InProc registered                        namespace=debug
+DEBUG[02-25|16:06:33.707] InProc registered                        namespace=web3
+raft2021/02/25 16:06:33.707340 INFO: raft.node: 2 elected leader 1 at term 2
+INFO [02-25|16:06:33.707] QUORUM-CHECKPOINT                        name=BECAME-LEARNER
+DEBUG[02-25|16:06:33.707] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.707] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.742] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.743] InProc registered                        namespace=txpool
+DEBUG[02-25|16:06:33.743] InProc registered                        namespace=debug
+DEBUG[02-25|16:06:33.744] InProc registered                        namespace=debug
+DEBUG[02-25|16:06:33.744] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.744] InProc registered                        namespace=personal
+DEBUG[02-25|16:06:33.745] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.745] InProc registered                        namespace=ethash
+DEBUG[02-25|16:06:33.745] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.745] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.757] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.758] InProc registered                        namespace=miner
+DEBUG[02-25|16:06:33.759] InProc registered                        namespace=eth
+DEBUG[02-25|16:06:33.759] InProc registered                        namespace=admin
+DEBUG[02-25|16:06:33.759] InProc registered                        namespace=debug
+2021-02-25 16:06:33.760627 I | rafthttp: peer 1 became active
+raft2021/02/25 16:06:33.762328 INFO: 2 [commit: 0, lastindex: 0, lastterm: 0] starts to restore snapshot [index: 3, term: 2]
+raft2021/02/25 16:06:33.762459 INFO: log [committed=0, applied=0, unstable.offset=1, len(unstable.Entries)=0] starts to restore snapshot [index: 3, term: 2]
+raft2021/02/25 16:06:33.763196 INFO: 2 restored progress of 1 [next = 4, match = 0, state = ProgressStateProbe, waiting = false, pendingSnapshot = 0]
+raft2021/02/25 16:06:33.763256 INFO: 2 restored progress of 2 [next = 4, match = 3, state = ProgressStateProbe, waiting = false, pendingSnapshot = 0]
+raft2021/02/25 16:06:33.763284 INFO: 2 [commit: 3] restored snapshot [index: 3, term: 2]
+DEBUG[02-25|16:06:33.763] InProc registered                        namespace=debug
+DEBUG[02-25|16:06:33.763] InProc registered                        namespace=net
+DEBUG[02-25|16:06:33.763] InProc registered                        namespace=raft
+DEBUG[02-25|16:06:33.763] IPC registered                           namespace=admin
+DEBUG[02-25|16:06:33.767] IPC registered                           namespace=admin
+DEBUG[02-25|16:06:33.767] IPC registered                           namespace=debug
+DEBUG[02-25|16:06:33.767] IPC registered                           namespace=web3
+DEBUG[02-25|16:06:33.767] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.767] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=txpool
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=debug
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=debug
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=personal
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=ethash
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.768] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.769] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.769] IPC registered                           namespace=miner
+DEBUG[02-25|16:06:33.769] IPC registered                           namespace=eth
+DEBUG[02-25|16:06:33.769] IPC registered                           namespace=admin
+DEBUG[02-25|16:06:33.769] IPC registered                           namespace=debug
+DEBUG[02-25|16:06:33.769] IPC registered                           namespace=debug
+DEBUG[02-25|16:06:33.769] IPC registered                           namespace=net
+DEBUG[02-25|16:06:33.769] IPC registered                           namespace=raft
+INFO [02-25|16:06:33.770] IPC endpoint opened                      url=/Users/rubychen/Desktop/quorum/fromscratch/new-node-2/geth.ipc
+INFO [02-25|16:06:33.770] Security Plugin is not enabled 
+ERROR[02-25|16:06:33.770] Unavailable modules in HTTP API list     unavailable="[db shh quorum]" available="[admin debug web3 eth txpool personal ethash miner net raft]"
+INFO [02-25|16:06:33.772] Security: TLS not enabled                endpoint=0.0.0.0:22001 reason="no TLSConfigurationSource found"
+INFO [02-25|16:06:33.772] HTTP endpoint opened                     url=http://[::]:22001/ cors= vhosts=localhost
+2021-02-25 16:06:33.786209 E | rafthttp: failed to find member 1 in cluster 1000
+2021-02-25 16:06:33.788511 E | rafthttp: failed to find member 1 in cluster 1000
+INFO [02-25|16:06:33.804] applying snapshot to raft storage 
+INFO [02-25|16:06:33.806] updating cluster membership per raft snapshot 
+INFO [02-25|16:06:33.806] adding new raft peer                     raft id=1
+TRACE[02-25|16:06:33.806] Adding static node                       id=ebb7863cca73b9c7 ip=127.0.0.1 added=false
+2021-02-25 16:06:33.809573 I | rafthttp: starting peer 1...
+2021-02-25 16:06:33.809683 I | rafthttp: started HTTP pipelining with peer 1
+2021-02-25 16:06:33.810316 I | rafthttp: started streaming with peer 1 (writer)
+2021-02-25 16:06:33.810743 I | rafthttp: started streaming with peer 1 (writer)
+2021-02-25 16:06:33.811650 I | rafthttp: started peer 1
+2021-02-25 16:06:33.811720 I | rafthttp: started streaming with peer 1 (stream MsgApp v2 reader)
+2021-02-25 16:06:33.811864 I | rafthttp: started streaming with peer 1 (stream Message reader)
+2021-02-25 16:06:33.813667 I | rafthttp: added peer 1
+INFO [02-25|16:06:33.813] updated cluster membership 
+INFO [02-25|16:06:33.813] blockchain is caught up; no need to synchronize 
+INFO [02-25|16:06:33.814] persisted the latest applied index       index=3
+2021-02-25 16:06:33.815141 I | rafthttp: peer 1 became active
+2021-02-25 16:06:33.815211 I | rafthttp: established a TCP streaming connection with peer 1 (stream Message reader)
+2021-02-25 16:06:33.815299 I | rafthttp: established a TCP streaming connection with peer 1 (stream MsgApp v2 reader)
+2021-02-25 16:06:33.886407 I | rafthttp: established a TCP streaming connection with peer 1 (stream Message writer)
+2021-02-25 16:06:33.886962 I | rafthttp: established a TCP streaming connection with peer 1 (stream MsgApp v2 writer)
+DEBUG[02-25|16:06:35.510] Couldn't add port mapping                proto=tcp extport=21001 intport=21001 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[02-25|16:06:53.266] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+INFO [02-25|16:07:08.408] Looking for peers                        peercount=1 tried=1 static=2
+DEBUG[02-25|16:07:13.269] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:07:33.201] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:07:33.272] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:07:53.276] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:08:13.284] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-25|16:08:20.052] Accepted RPC connection                  conn=
+DEBUG[02-25|16:08:20.131] Enrich call context with token from security context 
+DEBUG[02-25|16:08:20.131] Served rpc_modules                       reqid=1 t="238.852µs"
+DEBUG[02-25|16:08:20.135] Enrich call context with token from security context 
+DEBUG[02-25|16:08:20.138] Served admin_nodeInfo                    reqid=2 t=2.421746ms
+DEBUG[02-25|16:08:20.138] Enrich call context with token from security context 
+DEBUG[02-25|16:08:20.138] Served web3_clientVersion                reqid=3 t="109.707µs"
+DEBUG[02-25|16:08:20.139] Enrich call context with token from security context 
+WARN [02-25|16:08:20.139] Served eth_coinbase                      reqid=4 t="116.236µs" err="etherbase must be explicitly specified"
+DEBUG[02-25|16:08:20.142] Enrich call context with token from security context 
+DEBUG[02-25|16:08:20.142] Served eth_blockNumber                   reqid=5 t="168.06µs"
+DEBUG[02-25|16:08:20.142] Enrich call context with token from security context 
+DEBUG[02-25|16:08:20.142] Served eth_blockNumber                   reqid=6 t="80.684µs"
+DEBUG[02-25|16:08:20.143] Enrich call context with token from security context 
+DEBUG[02-25|16:08:20.143] Served eth_getBlockByNumber              reqid=7 t="439.284µs"
+DEBUG[02-25|16:08:20.148] Enrich call context with token from security context 
+DEBUG[02-25|16:08:20.148] Served admin_datadir                     reqid=8 t="132.839µs"
+DEBUG[02-25|16:08:20.149] Enrich call context with token from security context 
+DEBUG[02-25|16:08:20.151] Served rpc_modules                       reqid=9 t=2.22124ms
+DEBUG[02-25|16:08:23.573] Enrich call context with token from security context 
+DEBUG[02-25|16:08:23.573] Served raft_cluster                      reqid=10 t="427.235µs"
+DEBUG[02-25|16:08:28.108] Enrich call context with token from security context 
+DEBUG[02-25|16:08:28.110] Served raft_role                         reqid=11 t=2.197735ms
+DEBUG[02-25|16:08:31.982] Enrich call context with token from security context 
+DEBUG[02-25|16:08:31.985] Served raft_leader                       reqid=12 t=2.409488ms
+DEBUG[02-25|16:08:33.205] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:08:33.285] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:08:53.286] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:09:13.290] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:09:33.209] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:09:33.296] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:09:53.297] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:10:13.300] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:10:33.214] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:10:33.306] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:10:53.308] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:11:13.312] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:11:33.218] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:11:33.316] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:11:53.319] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:12:13.329] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:12:33.227] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:12:33.337] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:12:53.340] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:13:13.344] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:13:33.235] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:13:33.350] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:13:53.351] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:14:13.356] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:14:21.776] RPC connection read error                err=EOF
+DEBUG[02-25|16:14:33.239] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:14:33.361] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-25|16:14:47.523] Accepted RPC connection                  conn=
+DEBUG[02-25|16:14:47.590] Enrich call context with token from security context 
+DEBUG[02-25|16:14:47.590] Served rpc_modules                       reqid=1  t="182.157µs"
+DEBUG[02-25|16:14:47.597] Enrich call context with token from security context 
+DEBUG[02-25|16:14:47.597] Served admin_nodeInfo                    reqid=2  t="301.45µs"
+DEBUG[02-25|16:14:47.598] Enrich call context with token from security context 
+DEBUG[02-25|16:14:47.598] Served web3_clientVersion                reqid=3  t="89.905µs"
+DEBUG[02-25|16:14:47.598] Enrich call context with token from security context 
+WARN [02-25|16:14:47.598] Served eth_coinbase                      reqid=4  t="78.96µs"   err="etherbase must be explicitly specified"
+DEBUG[02-25|16:14:47.599] Enrich call context with token from security context 
+DEBUG[02-25|16:14:47.599] Served eth_blockNumber                   reqid=5  t="86.949µs"
+DEBUG[02-25|16:14:47.599] Enrich call context with token from security context 
+DEBUG[02-25|16:14:47.599] Served eth_blockNumber                   reqid=6  t="88.508µs"
+DEBUG[02-25|16:14:47.600] Enrich call context with token from security context 
+DEBUG[02-25|16:14:47.600] Served eth_getBlockByNumber              reqid=7  t="280.741µs"
+DEBUG[02-25|16:14:47.601] Enrich call context with token from security context 
+DEBUG[02-25|16:14:47.601] Served admin_datadir                     reqid=8  t="69.68µs"
+DEBUG[02-25|16:14:47.601] Enrich call context with token from security context 
+DEBUG[02-25|16:14:47.601] Served rpc_modules                       reqid=9  t="81.114µs"
+DEBUG[02-25|16:14:52.106] Enrich call context with token from security context 
+DEBUG[02-25|16:14:52.106] Served eth_accounts                      reqid=10 t="287.725µs"
+DEBUG[02-25|16:14:53.363] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:14:55.064] RPC connection read error                err=EOF
+DEBUG[02-25|16:15:13.365] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:15:33.247] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:15:33.366] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:15:53.368] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:16:13.369] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:16:33.250] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:16:33.371] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:16:53.373] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:17:13.376] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:17:33.254] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:17:33.377] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:17:53.379] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:18:13.382] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:18:33.256] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:18:33.383] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:18:53.385] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:19:13.390] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:19:33.259] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:19:33.391] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:19:53.392] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:20:13.395] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:20:33.261] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:20:33.397] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:20:53.399] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:21:13.404] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:21:33.265] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:21:33.408] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-25|16:21:33.440] Refreshing port mapping                  proto=tcp extport=21001 intport=21001 interface="UPnP or NAT-PMP"
+DEBUG[02-25|16:21:33.440] Couldn't add port mapping                proto=tcp extport=21001 intport=21001 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[02-25|16:21:53.409] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:22:13.411] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:22:33.272] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:22:33.416] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:22:53.420] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:23:13.423] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:23:33.275] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:23:33.427] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:23:53.428] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:24:13.429] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:24:33.280] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:24:33.435] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:24:53.438] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:25:13.441] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:25:33.285] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:25:33.442] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:25:53.444] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:26:13.447] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:26:33.289] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:26:33.448] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:26:53.453] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:27:13.455] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:27:33.293] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:27:33.458] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:27:53.464] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:28:13.469] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:28:33.724] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:28:33.724] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:28:53.728] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:29:13.732] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:29:33.727] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:29:33.733] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:29:53.738] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:30:13.741] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:30:33.734] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:30:33.744] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:30:53.746] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:31:13.751] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:31:33.739] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:31:33.755] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:31:53.761] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:32:13.769] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:32:33.749] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:32:33.772] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:32:53.778] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:33:13.786] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:33:33.753] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:33:33.798] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:33:53.799] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:34:13.803] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:34:33.759] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:34:33.804] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:34:53.806] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:35:13.808] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:35:33.763] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:35:33.814] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:35:53.818] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:36:13.819] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-25|16:36:33.472] Refreshing port mapping                  proto=tcp extport=21001 intport=21001 interface="UPnP or NAT-PMP"
+DEBUG[02-25|16:36:33.473] Couldn't add port mapping                proto=tcp extport=21001 intport=21001 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[02-25|16:36:33.766] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:36:33.820] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:36:53.821] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:37:13.822] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:37:33.770] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:37:33.824] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:37:53.827] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:38:13.828] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:38:33.775] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:38:33.830] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:38:53.831] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:39:13.834] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:39:33.780] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:39:33.835] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:39:53.837] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:40:13.838] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:40:33.782] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:40:33.839] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:40:53.848] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:41:13.855] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:41:33.786] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:41:33.859] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:41:53.863] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:42:13.869] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:42:33.794] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:42:33.870] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:42:53.873] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:43:13.877] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:43:33.801] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:43:33.886] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:43:53.889] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:44:13.894] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:44:33.808] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:44:33.896] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:44:53.899] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:45:13.901] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:45:33.815] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:45:33.910] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:45:53.915] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:46:13.921] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:46:33.822] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:46:33.925] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:51:47.222] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:52:07.496] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:52:27.395] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:52:27.503] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:52:47.507] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:53:07.510] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:53:27.397] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|16:53:27.513] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|16:53:47.518] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:15:33.068] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:15:54.140] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|17:15:54.265] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:16:14.269] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:16:34.278] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:16:54.150] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|17:16:54.280] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:17:14.287] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:17:34.293] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+TRACE[02-25|17:17:53.807] Refreshing port mapping                  proto=tcp extport=21001 intport=21001 interface="UPnP or NAT-PMP"
+DEBUG[02-25|17:17:53.807] Couldn't add port mapping                proto=tcp extport=21001 intport=21001 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[02-25|17:17:54.153] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|17:17:54.296] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:27:30.968] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:27:50.972] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|17:28:10.820] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|17:28:10.977] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|18:10:49.725] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|18:11:09.727] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|18:11:29.571] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|18:11:29.732] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|18:11:49.734] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|18:12:09.741] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[02-25|18:12:29.652] Current full block not old enough        number=0 hash="f23750…e6fb3f" delay=3162240
+DEBUG[02-25|18:12:29.820] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
